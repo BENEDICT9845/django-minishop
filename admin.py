@@ -23,10 +23,10 @@ import datetime
 
 class ShopAdminSite(AdminSite):
     """
-    An AdminSite object encapsulates an instance of the Django admin application, ready
-    to be hooked in to your URLConf. Models are registered with the AdminSite using the
-    register() method, and the root() method can then be used as a Django view function
-    that presents a full admin interface for the collection of registered models.
+    An AdminSite object epitomizes an occasion of the Django administrator application, prepared 
+    to be snared in to your URLConf. Models are enrolled with the AdminSite utilizing the 
+    register() strategy, and the root() technique would then be able to be utilized as a Django see work 
+    that presents a full administrator interface for the assortment of enrolled models.
     """
     
     def index(self, request, extra_context=None):
